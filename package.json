@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
+    "build:prod": "webpack -p",
     "help": "webpack --help",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,9 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
     "lodash": "^4.17.4"
   }
 }
