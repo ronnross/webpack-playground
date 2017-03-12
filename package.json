@@ -19,6 +19,8 @@
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
     "babel-preset-env": "^1.2.1",
-    "lodash": "^4.17.4"
+    "css-loader": "^0.27.1",
+    "lodash": "^4.17.4",
+    "style-loader": "^0.13.2"
   }
 }
